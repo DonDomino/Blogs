@@ -16,25 +16,30 @@
     </title>
   </head>
   <body>
+    <div class="todo">
 <header class="container">
-  <img src="Images/logo.png" class="logo1">
   <div id="fila1" class="row">
-  <ul class="list-inline">
-    <li><img src="Icons/Youtube.jpg" alt=""></li>
-    <li><img src="Icons/Facebook.jpg" alt=""></li>
-    <li><img src="Icons/Instagram.jpg" alt=""></li>
-    <li><img src="Icons/Pinterest.jpg" alt=""></li>
-    <li><img src="Icons/Twitter.jpg" alt=""></li>
-  </ul>
+    <div class="col-lg-4">
+      <img src="Images/logo.png" class="logo1">
+    </div>
+    <div id="social" class="col-lg-4 col-lg-offset-4">
+      <ul class="list-inline">
+        <li><a href="https://www.youtube.com/" target="_blank"><img src="Icons/Youtube.jpg" alt=""></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><img src="Icons/Facebook.jpg" alt=""></a></li>
+        <li><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="Icons/Instagram.jpg" alt=""></a></li>
+        <li><a href="https://co.pinterest.com/" target="_blank"><img src="Icons/Pinterest.jpg" alt=""></a></li>
+        <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="Icons/Twitter.jpg" alt=""></a></li>
+      </ul>
+    </div>
   </div>
 <nav class="navbar navbar-fixed">
   <div id="fila2" class="row">
-    <div class="col-lg-2">Inicio</div>
-    <div class="col-lg-2">Artistas</div>
-    <div class="col-lg-2">Grupos</div>
-    <div class="col-lg-2">Top 10</div>
-    <div class="col-lg-2">Letras</div>
-    <div class="col-lg-2">Acordes</div>
+    <div id="inicio" class="col-lg-1">Inicio</div>
+    <div id="artistas" class="col-lg-1 col-lg-offset-1">Artistas</div>
+    <div id="grupos" class="col-lg-1 col-lg-offset-1">Grupos</div>
+    <div id="top10" class="col-lg-1 col-lg-offset-1">Top 10</div>
+    <div id="letras" class="col-lg-1 col-lg-offset-1">Letras</div>
+    <div id="acordes" class="col-lg-1 col-lg-offset-1">Acordes</div>
   </div>
 </nav>
 </header>
@@ -53,16 +58,16 @@
       <div id="right-column" class="col-lg-3">
         <form>
           <div class="form-group" id="search">
-            <input type="text" class="form-control" name="searcher"><br>
+            <input id="searcher" type="text" class="form-control" name="searcher"><br>
             <label for="search">Buscar</label>
           </div>
         </form>
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
+        <p>Diomedes Diaz</p>
+        <p>Hermanos Zuleta</p>
+        <p>Ivan Villazon</p>
+        <p>Los Betos</p>
+        <p>Silvio Brito</p>
+        <p>Jorge Oñate</p>
       </div>
     </div>
       <div class="row" id="fila4">
@@ -74,9 +79,9 @@
           </form>
         </div>
         <div id="right-column" class="col-lg-3">
-          <p>a</p>
-          <p>b</p>
-          <p>c</p>
+          <p>Hector Lavoe</p>
+          <p>Ruben Blades</p>
+          <p>Willie Colon</p>
         </div>
       </div>
   </article>
@@ -90,18 +95,18 @@
         <img id="vallenato" src="Images/vallenato.jpg" class="img-circle"><br>
       </div>
       <div id="right-column" class="col-lg-3">
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
+        <p>Frankie Ruiz</p>
+        <p>Ismael Rivera</p>
+        <p>Grupo Niche</p>
+        <p>Richy Ray</p>
+        <p>David Pabon</p>
+        <p>Eddie Santiago</p>
+        <p>La conspiracion</p>
+        <p>Oscar de Leon</p>
+        <p>Joe Cuba</p>
+        <p>Cheo Feliciano</p>
+        <p>El Gran Combo</p>
+        <p>Fania all star</p>
     </div>
     <div id="fila6" class="row">
       <div class="col-lg-9">
@@ -114,5 +119,6 @@
     </div>
   </article>
 </section>
+</div>
   </body>
 </html>
