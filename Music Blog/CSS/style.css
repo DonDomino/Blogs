@@ -1,3 +1,46 @@
 .logo1{
-  width: 15%;
+  width: 8%;
+}
+
+header{
+  padding: 2% 2%;
+}
+
+nav{
+  text-align: justify;
+  padding: 2% 2%;
+}
+
+ul{
+  float: right;
+}
+
+@media (min-width:900px) {
+  #coment1{
+    width: 100%;
+  }
+  #salsa{
+    padding-top: 17%;
+  }
+}
+
+#coment1{
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+#salsa{
+  width: 80%;
+}
+
+#right-column{
+  background-color: red;
+}
+
+#fila2{
+  margin: 0% 2% 0% 1%;
+}
+
+#search{
+  padding-top: 5%;
 }

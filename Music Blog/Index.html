@@ -17,8 +17,8 @@
   </head>
   <body>
 <header class="container">
+  <img src="Images/logo.png" class="logo1">
   <div class="row">
-    <div class="col-lg-8"><img src="Images/logo.png" class="logo1"></div>
   <ul class="list-inline">
     <li>Youtube</li>
     <li>Facebook</li>
@@ -29,32 +29,45 @@
   </div>
 <nav>
   <div class="row">
-    <div class="col-lg-1 col-lg-offset-6">Inicio</div>
-    <div class="col-lg-1">Artistas</div>
-    <div class="col-lg-1">Grupos</div>
-    <div class="col-lg-1">Top 10</div>
-    <div class="col-lg-1">Letras</div>
-    <div class="col-lg-1">Acordes</div>
+    <div class="col-lg-2">Inicio</div>
+    <div class="col-lg-2">Artistas</div>
+    <div class="col-lg-2">Grupos</div>
+    <div class="col-lg-2">Top 10</div>
+    <div class="col-lg-2">Letras</div>
+    <div class="col-lg-2">Acordes</div>
   </div>
 </nav>
 </header>
 <section>
   <article class="text-justify">
-    <div class="row">
-      <div class="col-lg-6">
+    <div class="row" id="fila2">
+      <div class="col-lg-5">
         <h1>La Salsa</h1>
         <p>
           Salsa es el término comercial usado desde finales de los años 1960 para definir un género musical hispano, resultante de la síntesis del son cubano y otros géneros de música caribeña, con el jazz y otros ritmos estadounidenses. La salsa tiene variedades puertorriqueña, venezolana, dominicana, colombiana y de otros países de América Latina. De esta síntesis nació también el jazz afrocubano y el jazz latino, que tiene influencias de otros países también. La salsa fue desarrollada por músicos de origen caribeño (cubanos, puertorriqueños y dominicanos) en el Gran Caribe y la ciudad de Nueva York. La salsa abarca varios estilos como la salsa dura, la salsa romántica y la timba.
         </p>
       </div>
-      <div class="container">
-        <form action>
-          <div class="form-group">
-            <textarea name="Comentarios" rows="8" cols="80" class="form-control" placeholder="Comentarios"></textarea>
+      <div class="col-lg-4">
+        <img id="salsa" src="Images/salsa.jpg"><br>
+      </div>
+      <div id="right-column" class="col-lg-3">
+        <form>
+          <div class="form-group" id="search">
+            <input type="text" class="form-control" name="searcher"><br>
+            <label for="search">Buscar</label>
           </div>
         </form>
       </div>
     </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <form action>
+            <div id="coment1" class="form-group">
+              <textarea name="Comentarios" rows="2" cols="60" placeholder="Comentarios" class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+          </div>
   </article>
 </section>
   </body>
