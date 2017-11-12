@@ -1,3 +1,18 @@
+@media (min-width:900px) {
+  #salsa, #vallenato{
+    padding-top: 17%;
+  }
+  #coments{
+    margin-top: 2%;
+  }
+}
+
+@media (max-width:800px) {
+  #right-column{
+    display: none;
+  }
+}
+
 .logo1{
   width: 8%;
 }
@@ -15,31 +30,25 @@ ul{
   float: right;
 }
 
-@media (min-width:900px) {
-  #coment1{
-    width: 100%;
-  }
-  #salsa{
-    padding-top: 17%;
-  }
-  #coment1{
-    margin-top: 1%;
-    margin-left: 5%;
-  }
+#imagenes{
+  text-align: center;
 }
 
-#salsa{
+#salsa, #vallenato{
   width: 80%;
+  margin-bottom: 1%;
 }
 
 #right-column{
   background-color: red;
 }
 
-#fila2, #fila3{
+#fila3, #fila4, #fila5, #fila6{
   margin: 0% 2% 0% 1%;
 }
 
 #search{
   padding-top: 5%;
+  background-color: blue;
+  padding: 2%;
 }
