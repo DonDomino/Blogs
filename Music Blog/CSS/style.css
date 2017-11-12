@@ -22,11 +22,10 @@ ul{
   #salsa{
     padding-top: 17%;
   }
-}
-
-#coment1{
-  margin-top: 1%;
-  margin-left: 5%;
+  #coment1{
+    margin-top: 1%;
+    margin-left: 5%;
+  }
 }
 
 #salsa{
@@ -37,7 +36,7 @@ ul{
   background-color: red;
 }
 
-#fila2{
+#fila2, #fila3{
   margin: 0% 2% 0% 1%;
 }
 
