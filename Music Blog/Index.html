@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" with= "device-width" content="">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -12,113 +13,139 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <title>Blog de Musica
-    </title>
+    <title>Blog de Música</title>
   </head>
+<div class="body">
   <body>
-    <div class="todo">
-<header class="container">
-  <div id="fila1" class="row">
-    <div class="col-lg-4">
-      <img src="Images/logo.png" class="logo1">
-    </div>
-    <div id="social" class="col-lg-4 col-lg-offset-4">
-      <ul class="list-inline">
-        <li><a href="https://www.youtube.com/" target="_blank"><img src="Icons/Youtube.jpg" alt=""></a></li>
-        <li><a href="https://www.facebook.com/" target="_blank"><img src="Icons/Facebook.jpg" alt=""></a></li>
-        <li><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="Icons/Instagram.jpg" alt=""></a></li>
-        <li><a href="https://co.pinterest.com/" target="_blank"><img src="Icons/Pinterest.jpg" alt=""></a></li>
-        <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="Icons/Twitter.jpg" alt=""></a></li>
-      </ul>
-    </div>
-  </div>
-<nav class="navbar navbar-fixed">
-  <div id="fila2" class="row">
-    <div id="inicio" class="col-lg-1">Inicio</div>
-    <div id="artistas" class="col-lg-1 col-lg-offset-1">Artistas</div>
-    <div id="grupos" class="col-lg-1 col-lg-offset-1">Grupos</div>
-    <div id="top10" class="col-lg-1 col-lg-offset-1">Top 10</div>
-    <div id="letras" class="col-lg-1 col-lg-offset-1">Letras</div>
-    <div id="acordes" class="col-lg-1 col-lg-offset-1">Acordes</div>
-  </div>
-</nav>
-</header>
-<section>
-  <article class="text-justify">
-    <div class="row" id="fila3">
-      <div class="col-lg-5">
-        <h1>La Salsa</h1>
-        <p>
-          Salsa es el término comercial usado desde finales de los años 1960 para definir un género musical hispano, resultante de la síntesis del son cubano y otros géneros de música caribeña, con el jazz y otros ritmos estadounidenses. La salsa tiene variedades puertorriqueña, venezolana, dominicana, colombiana y de otros países de América Latina. De esta síntesis nació también el jazz afrocubano y el jazz latino, que tiene influencias de otros países también. La salsa fue desarrollada por músicos de origen caribeño (cubanos, puertorriqueños y dominicanos) en el Gran Caribe y la ciudad de Nueva York. La salsa abarca varios estilos como la salsa dura, la salsa romántica y la timba.
-        </p>
+<!--Header-->
+  <header>
+    <div class="row position-relative-md">
+      <div class="col-md-2 col-xs-12 text-center">
+        <img src="Images/logo.png" alt="Logo" class="logo">
       </div>
-      <div id="imagenes"class="col-lg-4">
-        <img id="salsa" src="Images/salsa.jpg" class="img-circle"><br>
+      <div class="col-md-5 col-md-offset-5 col-xs-12 text-center social position-absolute-md">
+        <a href="https://www.youtube.com/" target="_blank"><img src="Icons/Youtube.jpg" alt=""></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="Icons/Facebook.jpg" alt=""></a>
+        <a href="https://www.instagram.com/?hl=es" target="_blank"><img src="Icons/Instagram.jpg" alt=""></a>
+        <a href="https://co.pinterest.com/" target="_blank"><img src="Icons/Pinterest.jpg" alt=""></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="Icons/Twitter.jpg" alt=""></a>
       </div>
-      <div id="right-column" class="col-lg-3">
-        <form>
-          <div class="form-group" id="search">
-            <input id="searcher" type="text" class="form-control" name="searcher"><br>
-            <label for="search">Buscar</label>
+    </div>
+  </header>
+  <!--Fin del Header-->
+  <div class="container">
+  <!--Barra de Navegación-->
+  <div class="row menu">
+    <nav id="menu-principal" class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-center col-md-12">
+          <li class="col-md-2 activo"><a href="#">Inicio</a></li>
+          <li class="col-md-2"><a href="#">Artistas</a></li>
+          <li class="col-md-2"><a href="#">Grupos</a></li>
+          <li class="col-md-2"><a href="#">Top10</a></li>
+          <li class="col-md-2"><a href="#">Letras</a></li>
+          <li class="col-md-2"><a href="#">Acordes</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Fin de la barra de navegación-->
+  <div class="row contenido">
+  <!-- Artículos -->
+  <!-- Contenedor de artículos -->
+    <section class="col-md-9 clearfix">
+  <!-- Artículo 1 -->
+      <article class="col-md-12">
+    <!-- Texto salsa -->
+        <div class="col-md-5 col-md-push-7">
+          <div class="col-md-12">
+            <img id="imagenes" src="Images/salsa.jpg" class="img-circle">
           </div>
-        </form>
-        <p>Diomedes Diaz</p>
-        <p>Hermanos Zuleta</p>
-        <p>Ivan Villazon</p>
-        <p>Los Betos</p>
-        <p>Silvio Brito</p>
-        <p>Jorge Oñate</p>
-      </div>
-    </div>
-      <div class="row" id="fila4">
-        <div class="col-lg-9">
-          <form action>
-            <div id="coments" class="form-group">
-              <textarea name="Comentarios" rows="2" cols="60" placeholder="Comentarios" class="form-control"></textarea>
+        </div>
+    <!-- Imagen salsa -->
+        <div id="articulo" class="col-md-7 col-md-pull-5">
+          <h2 class="titulo-post">La Salsa</h2>
+            <p class="text-justify">
+              Salsa es el término comercial usado desde finales de los años 1960 para definir un género musical hispano, resultante de la síntesis del son cubano y otros géneros de música caribeña, con el jazz y otros ritmos estadounidenses. La salsa tiene variedades puertorriqueña, venezolana, dominicana, colombiana y de otros países de América Latina. De esta síntesis nació también el jazz afrocubano y el jazz latino, que tiene influencias de otros países también. La salsa fue desarrollada por músicos de origen caribeño (cubanos, puertorriqueños y dominicanos) en el Gran Caribe y la ciudad de Nueva York. La salsa abarca varios estilos como la salsa dura, la salsa romántica y la timba.
+            </p>
+        </div>
+    <!-- comentarios -->
+        <div class="clearfix"></div>
+        <div class="row form-group comments">
+          <div class="col-xs-2 col-sm-1 text-right icon">
+            <span class="glyphicon glyphicon-user"></span>
+          </div>
+          <div class="col-xs-10 col-sm-11">
+            <textarea name="name" class="form-control" placeholder="Comentario"></textarea>
+          </div>
+        </div>
+  <!-- Fin de primer artículo -->
+      </article>
+  <!-- Artículo 2 -->
+      <article class="col-md-12">
+    <!-- Texto vallenato -->
+        <div class="col-md-5">
+          <div class="col-md-12">
+            <img id="imagenes" src="Images/vallenato.jpg" class="img-circle">
+          </div>
+        </div>
+    <!-- Imagen vallenato -->
+        <div id="articulo" class="col-md-7">
+          <h2 class="titulo-post">El Vallenato</h2>
+            <p class="text-justify">
+              El vallenato es un género musical autóctono de la Costa Caribe colombiana con epicentro en la antigua provincia de Padilla (actuales sur de La Guajira, norte del Cesar y oriente del Magdalena). Tiene notable influencia de la inmigración europea, ya que el acordeón fue traído por pobladores alemanes a Riohacha, La Guajira, a finales del siglo XIX, y tanto la organización estrófica como la métrica se valen de la tradición española; por otra parte, el componente de los esclavos afrocolombianos hace presencia con la caja vallenata, una especie de tambor que en gran medida le da el ritmo a la melodía del acordeón, y por último lo indígena se evidencia con la guacharaca. Los ritmos o aires musicales del vallenato son el paseo, el merengue, la puya, el son y la tambora. El vallenato tradicional fue declarado Patrimonio Cultural Inmaterial de la Nación por el Consejo Nacional de Patrimonio del Ministerio de Cultura y fue incluido en la lista de Patrimonio Cultural Inmaterial de la Humanidad, en la lista de salvaguardia urgente por la Unesco.
+            </p>
+        </div>
+    <!-- comentarios -->
+        <div class="clearfix"></div>
+        <div class="row form-group comments">
+          <div class="col-xs-2 col-sm-1 text-right">
+            <span class="glyphicon glyphicon-user icon"></span>
+          </div>
+          <div class="col-xs-10 col-sm-11">
+            <textarea name="name" class="form-control " placeholder="Comentario"></textarea>
+          </div>
+        </div>
+        <!-- Fin de segundo artículo -->
+    </article>
+  </section>
+    <!--Fin de los Artículos -->
+    <!-- Barra de búsqueda -->
+    <aside class="col-md-3 hidden-sm hidden-xs">
+      <div class="row rightcolumn">
+        <div class="col-xs-12">
+          <form>
+            <div class="form-group inner-addon left-addon">
+              <i class="glyphicon glyphicon-search"></i>
+              <input type="text" class="form-control" placeholder="Buscar">
             </div>
           </form>
-        </div>
-        <div id="right-column" class="col-lg-3">
-          <p>Hector Lavoe</p>
-          <p>Ruben Blades</p>
-          <p>Willie Colon</p>
-        </div>
-      </div>
-  </article>
-  <article class="text-justify">
-    <div class="row" id="fila5">
-      <div class="col-lg-5 col-lg-push-4">
-        <h1>El Vallenato</h1>
-          <p>El vallenato o música vallenata es un género musical autóctono de la Costa Caribe colombiana con epicentro en la antigua provincia de Padilla (actuales sur de La Guajira, norte del Cesar y oriente del Magdalena) y presencia ancestral en la región sabanera de los departamentos de Bolívar, Sucre y Córdoba. Tiene notable influencia de la inmigración europea, ya que el acordeón fue traído por pobladores alemanes a Riohacha, La Guajira, a finales del siglo XIX, y tanto la organización estrófica como la métrica se valen de la tradición española; por otra parte, el componente de los esclavos afrocolombianos hace presencia con la caja vallenata, una especie de tambor que en gran medida le da el ritmo a la melodía del acordeón, y por último lo indígena se evidencia con la guacharaca.1​ Su popularidad se ha extendido hoy a todas las regiones de Colombia, a países vecinos como Ecuador, Panamá y Venezuela, y a más alejados como Argentina, México y Paraguay. Se interpreta tradicionalmente con tres instrumentos: el acordeón diatónico, la guacharaca y la caja vallenata. Los ritmos o aires musicales del vallenato son el paseo, el merengue, la puya, el son y la tambora.2​ El vallenato también se interpreta con guitarra y con la instrumentación de la cumbia en cumbiambas y grupos de millo. El 29 de noviembre de 2013, el vallenato tradicional fue declarado Patrimonio Cultural Inmaterial de la Nación por el Consejo Nacional de Patrimonio del Ministerio de Cultura.3​ El 1 de diciembre de 2015 fue incluido en la lista de Patrimonio Cultural Inmaterial de la Humanidad, en la lista de salvaguardia urgente por la Unesco.</p>
-      </div>
-      <div id="imagenes" class="col-lg-4 col-lg-pull-5">
-        <img id="vallenato" src="Images/vallenato.jpg" class="img-circle"><br>
-      </div>
-      <div id="right-column" class="col-lg-3">
-        <p>Frankie Ruiz</p>
-        <p>Ismael Rivera</p>
-        <p>Grupo Niche</p>
-        <p>Richy Ray</p>
-        <p>David Pabon</p>
-        <p>Eddie Santiago</p>
-        <p>La conspiracion</p>
-        <p>Oscar de Leon</p>
-        <p>Joe Cuba</p>
-        <p>Cheo Feliciano</p>
-        <p>El Gran Combo</p>
-        <p>Fania all star</p>
-    </div>
-    <div id="fila6" class="row">
-      <div class="col-lg-9">
-        <form action>
-          <div id="coments" class="form-group">
-            <textarea name="Comentarios" rows="2" cols="60" placeholder="Comentarios" class="form-control"></textarea>
+    <!-- Sugerencias de búsqueda -->
+          <div class="list-group text-center">
+          <a href="#" class="list-group-item">Hector Lavoe</a>
+          <a href="#" class="list-group-item">Ruben Blades</a>
+          <a href="#" class="list-group-item">Willie Colon</a>
+          <a href="#" class="list-group-item">Frankie Ruiz</a>
+          <a href="#" class="list-group-item">Ismael Rivera</a>
+          <a href="#" class="list-group-item">Grupo Niche</a>
+          <a href="#" class="list-group-item">Richy Ray</a>
+          <a href="#" class="list-group-item">David Pabon</a>
+          <a href="#" class="list-group-item">Eddie Santiago</a>
+          <a href="#" class="list-group-item">Diomedes Diaz</a>
+          <a href="#" class="list-group-item">Hermanos Zuleta</a>
+          <a href="#" class="list-group-item">Ivan Villazón</a>
+          <a href="#" class="list-group-item">Los Betos</a>
+          <a href="#" class="list-group-item">Silvio Brito</a>
+          <a href="#" class="list-group-item">Jorge Oñate</a>
           </div>
-        </form>
+        </div>
       </div>
-    </div>
-  </article>
-</section>
+    </aside>
+    <!-- fin de la columna de búsqueda -->
+  </div>
+  <!-- Fin de contenido -->
 </div>
+<!-- Fin de container -->
   </body>
+</div>
 </html>
