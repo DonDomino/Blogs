@@ -1,7 +1,7 @@
-@media (min-width: 800px) {
+@media (min-width: 899px) {
   .logo{
-    width: 100%;
-    padding: 5% 0% 5% 5%;
+    width: 90%;
+    padding: 5% 0% 5% 0%;
   }
   .social{
     padding-top: 10%;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .logo{
     width: 35%;
     padding: 1%;
@@ -33,10 +33,6 @@
   color: white;
 }
 
-header{
-  padding: 0% 3% 0% 3%;
-}
-
 .menu{
   background-color: black;
   text-align: center;
@@ -44,8 +40,7 @@ header{
 
 #imagenes{
   width: 100%;
-  text-align: center;
-  margin-top: 2%
+  margin-top: 2%;
 }
 
 .comments{
@@ -70,4 +65,6 @@ form{
   padding: 9% 3%;
 }
 
-.left-addon input  { padding-left:  30px; }
+.left-addon input{
+  padding-left:  30px;
+}
