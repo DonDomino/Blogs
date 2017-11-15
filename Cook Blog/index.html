@@ -25,12 +25,12 @@
 <!-- Contenido -->
   <div class="row">
     <!-- Columna izquierda -->
-    <div class="column large-4">
+    <div class="column medium-4 show-for-medium show-for-landscape">
       <div class="callout">
       <!-- Busqueda -->
       <div class="input-group">
         <span class="input-group-label"><i class="fi-magnifying-glass"></i></span>
-        <input class="input-group-field" type="text" name="buscar" placeholder="Buscar">
+        <input size="10%" class="input-group-field" type="text" name="buscar" placeholder="Buscar">
       </div>
       <!-- menu -->
       <div class="">
@@ -91,7 +91,7 @@
     <!-- Fin Columna izquierda -->
     </div>
     <!-- Columna derecha -->
-    <div class="column large 8">
+    <div class="column large-8">
       <!-- Articulos -->
       <section>
         <!-- Primer Articulo -->
@@ -106,8 +106,20 @@
               <div class="">
                 <label for="comentarios"><strong>Escribe tu comentario:</strong></label>
                 <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
-                <a href="#" class="small button"><i class="fi-comment"> Publicar</i></a>
+                <div class="row column text-right"><a href="#" class="small button"><i class="fi-comment"></i> Publicar</a></div>
               </div>
+              <!-- comentarios -->
+              <div class="callout primary">
+              <div class="callout secondary">
+              <div class="row coments">
+                <div class="column small-1">
+                <img class="imgcoment" src="images/female.png" alt="">
+              </div>
+              <p><strong>aug23:</strong> Se ve deliciosa aunque complicada de preparar.</p>
+              </div>
+              </div>
+            </div>
+
           </div>
         </article>
         <!-- Segundo Articulo -->
@@ -125,12 +137,37 @@
             <div class="">
               <label for="comentarios"><strong>Escribe tu comentario:</strong></label>
               <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
-              <a href="#" class="small button"><i class="fi-comment"></i> Publicar</a>
+              <div class="row column text-right"><a href="#" class="small button"><i class="fi-comment"></i> Publicar</a></div>
             </div>
-            <div class="">
-              <textarea name="oldcomment" rows="2" cols="80">lina1309: Excelente, los patacones son mis favoritos.</textarea>
+            <!-- comentarios -->
+            <div class="callout primary">
+            <div class="callout secondary">
+            <div class="row coments">
+              <div class="column small-1">
+              <img class="imgcoment" src="images/female.png" alt="">
             </div>
+            <p><strong>lina1309:</strong> Excelente, lo voy a probar.</p>
+            </div>
+            </div>
+            <div class="callout secondary">
+            <div class="row coments">
+              <div class="column small-1">
+              <img class="imgcoment" src="images/male.png" alt="">
+            </div>
+            <p><strong>mau1309:</strong> A mi me quedan bien hechos!</p>
+            </div>
+            </div>
+            <div class="callout secondary">
+            <div class="row coments">
+            <div class="column small-1">
+              <img class="imgcoment" src="images/male.png" alt="">
+            </div>
+            <p><strong>Andy2:</strong> Gracias por esos posts.</p>
           </div>
+          </div>
+          </div>
+
+        </div>
         </article>
       </section>
 <!-- Fin de Articulo -->
