@@ -5,17 +5,20 @@
     <meta name="viewport" with= "device-width" content="">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <title>Blog de Gastronomía</title>
   </head>
-
   <body>
-
+  <div class="row callout contenedor">
+    <div class="">
+<!-- Header -->
 <header>
   <div class="row">
-    <div class="callout primary column large-4">
-    <h2>La Cocina de Mau</h2>
-    <h6>Lo mejor de la comida costeña</h6>
+    <div class="column large-12">
+    <h3>La Cocina de Mau</h3>
+    <h6>Lo mejor de la comida costeña</h6><hr>
     </div>
   </div>
 </header>
@@ -23,49 +26,96 @@
   <div class="row">
     <!-- Columna izquierda -->
     <div class="column large-4">
+      <div class="callout">
       <!-- Busqueda -->
-      <div class="">
-        <input type="text" name="buscar" placeholder="Buscar">
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-magnifying-glass"></i></span>
+        <input class="input-group-field" type="text" name="buscar" placeholder="Buscar">
       </div>
       <!-- menu -->
       <div class="">
         <nav>
-          <ul>
+          <ul class="no-bullet">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Platos favoritos</a></li>
             <li><a href="#">Otras recetas</a></li>
           </ul>
         </nav>
       </div>
-
       <!-- favoritos -->
-
+      <p>Favoritos:</p>
+      <div class="column large-12">
+        <div class="">
+          <div class="row">
+            <div class="column large-4">
+              <a href="#"><img src="images/alegria.jpg" alt=""></a>
+            </div>
+            <div class="column large-4">
+              <a href="#"><img src="images/bollo.jpg" alt=""></a>
+            </div>
+            <div class="column large-4">
+              <a href="#"><img src="images/buti.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column large-4">
+              <a href="#"><img src="images/cariba.jpg" alt=""></a>
+            </div>
+            <div class="column large-4">
+              <a href="#"><img src="images/empa.png" alt=""></a>
+            </div>
+            <div class="column large-4">
+              <a href="#"><img src="images/posta.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Historial -->
+      <p>Historial:</p>
+      <div class="">
+        <ul class="no-bullet">
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+          <li><a href="#">z</a></li>
+        </ul>
+      </div>
+      </div>
     <!-- Fin Columna izquierda -->
     </div>
-
-
     <!-- Columna derecha -->
     <div class="column large 8">
       <!-- Articulos -->
       <section>
         <!-- Primer Articulo -->
         <article class="">
-          <div class="callout primary">
-            <h3>La arepa de huevo</h3>
-            <img src="images/arepa.jpg" alt="arepa"><br><br>
+          <div class="callout">
+            <h4>La arepa de huevo</h4>
+            <h6>14 de noviembre de 2018</h6>
+            <img class="callout secondary" src="images/arepa.jpg" alt="arepa"><br><br>
             <p>
               La arepa de huevo (llamada coloquialmente arepa'e huevo) es una arepa típica de la Costa Atlántica Colombiana, la cual se compone de arepa de maíz y huevo en el interior. Su preparación consiste en freír la masa anticipadamente, luego se vierte un huevo crudo y se regresa a freír. Algunas preparaciones, además del huevo, llevan también carne desmechada o carne molida.
             </p>
               <div class="">
+                <label for="comentarios"><strong>Escribe tu comentario:</strong></label>
                 <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
+                <a href="#" class="small button"><i class="fi-comment"> Publicar</i></a>
               </div>
           </div>
         </article>
         <!-- Segundo Articulo -->
         <article class="">
           <div class="callout">
-              <h3>Patacones</h3>
-              <img src="images/patacon.jpg" alt=""><br><br>
+              <h4>Patacones</h4>
+              <h6>14 de noviembre de 2018</h6>
+              <img class="callout secondary" src="images/patacon.jpg" alt=""><br><br>
               <p>
                 El patacón o tostón es una comida a base de trozos aplanados de plátano verde que se fríen en aceite caliente. Es un platillo popular en varios países latinoamericanos y caribeños como Colombia, Panamá, Ecuador, República Dominicana, Nicaragua, Cuba, Puerto Rico, Haití y Venezuela.
               </p>
@@ -73,7 +123,12 @@
                 La preparación exige que el plátano sea verde, ya que el plátano maduro frito produce como resultado tajadas. Usualmente, para la preparación del patacón o tostón se parte el plátano en rodajas gruesas, y se fríen en aceite caliente por un periodo corto de tiempo (hasta que se doren), luego de lo cual se sacan del sartén, se aplastan con una pataconera, rodillo o tostonera, y se vuelven a sumergir en el aceite hasta terminar de freírlos.
               </p>
             <div class="">
+              <label for="comentarios"><strong>Escribe tu comentario:</strong></label>
               <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
+              <a href="#" class="small button"><i class="fi-comment"></i> Publicar</a>
+            </div>
+            <div class="">
+              <textarea name="oldcomment" rows="2" cols="80">lina1309: Excelente, los patacones son mis favoritos.</textarea>
             </div>
           </div>
         </article>
@@ -82,6 +137,8 @@
     </div>
 <!-- Fin de columna derecha -->
   </div>
+  </div>
+</div>
 <!-- Fin de Contenido -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
