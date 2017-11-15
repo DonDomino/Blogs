@@ -3,20 +3,83 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" with= "device-width" content="">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Blog de Gastronomía</title>
   </head>
 
   <body>
+
+<header>
+  <div class="row">
+    <div class="callout primary column large-4">
+    <h2>La Cocina de Mau</h2>
+    <h6>Lo mejor de la comida costeña</h6>
+    </div>
+  </div>
+</header>
+<!-- Contenido -->
+  <div class="row">
+    <!-- Columna izquierda -->
+    <div class="column large-4">
+
+      <div class="">
+        <input type="text" name="buscar" placeholder="Buscar">
+      </div>
+      <div class="">
+        <nav>
+          
+        </nav>
+      </div>
+
+    <!-- Fin Columna izquierda -->
+    </div>
+
+
+    <!-- Columna derecha -->
+    <div class="column large 8">
+      <!-- Articulos -->
+      <section>
+        <!-- Primer Articulo -->
+        <article class="">
+          <div class="callout primary">
+            <h3>La arepa de huevo</h3>
+            <img src="images/arepa.jpg" alt="arepa">
+            <p>
+              La arepa de huevo (llamada coloquialmente arepa'e huevo) es una arepa típica de la Costa Atlántica Colombiana, la cual se compone de arepa de maíz y huevo en el interior. Su preparación consiste en freír la masa anticipadamente, luego se vierte un huevo crudo y se regresa a freír. Algunas preparaciones, además del huevo, llevan también carne desmechada o carne molida.
+            </p>
+              <div class="">
+                <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
+              </div>
+          </div>
+        </article>
+        <!-- Segundo Articulo -->
+        <article class="">
+          <div class="callout">
+              <h3>Patacones</h3>
+              <img src="images/patacon.jpg" alt="">
+              <p>
+                El patacón o tostón es una comida a base de trozos aplanados de plátano verde que se fríen en aceite caliente. Es un platillo popular en varios países latinoamericanos y caribeños como Colombia, Panamá, Ecuador, República Dominicana, Nicaragua, Cuba, Puerto Rico, Haití y Venezuela.
+              </p>
+              <p>
+                La preparación exige que el plátano sea verde, ya que el plátano maduro frito produce como resultado tajadas. Usualmente, para la preparación del patacón o tostón se parte el plátano en rodajas gruesas, y se fríen en aceite caliente por un periodo corto de tiempo (hasta que se doren), luego de lo cual se sacan del sartén, se aplastan con una pataconera, rodillo o tostonera, y se vuelven a sumergir en el aceite hasta terminar de freírlos.
+              </p>
+            <div class="">
+              <textarea name="comentarios" rows="3" cols="80" placeholder="comentarios"></textarea>
+            </div>
+          </div>
+        </article>
+      </section>
+<!-- Fin de Articulo -->
+    </div>
+<!-- Fin de columna derecha -->
+  </div>
+<!-- Fin de Contenido -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
