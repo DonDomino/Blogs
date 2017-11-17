@@ -1,3 +1,43 @@
-p img{
-  width: 50%;
+@media (min-width: 800px) {
+  article img{
+    width: 50%;
+    float: left;
+    margin: 0 2% 1% 0;
+  }
+  .perfil img{
+    width: 60%;
+    margin: 7% 0 0 0;
+  }
+}
+
+body{
+  background: url(../images/nubes.jpg);
+  font-family: 'Permanent Marker', cursive;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.prueba{
+  position: fixed;
+  width: 1280px;
+  height: 200px;
+}
+
+article img{
+  border-radius: 10px;
+}
+
+article p, .chips, h3{
+  text-align: justify;
+}
+
+.perfil img{
+  width: 40%;
+  margin: 7% 0 0 0;
+}
+
+.card{
+  padding: 2%;
 }
